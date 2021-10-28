@@ -9,7 +9,7 @@ tags:
 - mysql
 - mysqldev
 ---
-A long standing idea that I have is to test the servers limits: 
+A long-standing idea that I have is to test the servers limits: 
 How does it fail and break if there are very many of a thing? 
 Previously that was too easy, because many structures were constructed in a way that it was obvious they would not scale.
 But with MySQL 8 many things were overhauled, so let's see what we can make many of and see how the server fares.
@@ -30,7 +30,7 @@ What can we try?
   - Make a million stored procedures, calling each other in a chain.
 - Make a many triggers? Is that even possible?
 - Make a million users.
-  - Make a million grants. This one is dear to my heart - we have this at work in one environment and it broke the server in an exciting and hard to fix way. `GRANT` statements in the processlist and `SHOW PROCESSLIST` running concurrently raced badly.
+  - Make a million grants. This one is dear to my heart - we have this at work in one environment, and it broke the server in an exciting and hard to fix way. `GRANT` statements in the processlist and `SHOW PROCESSLIST` running concurrently raced badly.
   - Make a million concurrent connections. Well, no, but I have seen 60.000 already, and it was not pretty. This failed in interesting ways, because monitoring was joining against `P_S.THREADS` and fell over badly.
 - Make a million users, using roles.
   - Make a million roles.
