@@ -4,12 +4,13 @@ published: true
 title: MySQL Consulting Bootcamp Munich 2005
 author-id: isotopp
 date: 2005-09-10 17:46:54 UTC
+tags:
 - certification
 - image
 - mysql
 - work
 - lang_de
-feature-img: assets/img/background/rijksmuseum.jpg
+feature-img: assets/img/background/mysql.jpg
 ---
 
 ![](/uploads/mysql_bootcamp/bootcamp.jpg)

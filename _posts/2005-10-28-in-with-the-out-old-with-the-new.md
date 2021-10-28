@@ -4,6 +4,7 @@ published: true
 title: In with the out, old with the new...
 author-id: isotopp
 date: 2005-10-28 18:18:47 UTC
+tags:
 - karlsruhe
 - mysql
 - united internet
