@@ -18,7 +18,7 @@ feature-img: assets/img/background/rijksmuseum.jpg
 [Das war's](http://blog.helaron.de/archives/236-Isotopp-ist-leider-raus....html).
 
 Bis heute - fast zwei Jahre lang - war ich Security-Fuzzi für web.de.
-Das bedeutet: Ich habe Security Policy definiert, Fachabteilungen bei der Umsetzung von Policies beraten und entweder selbst oder von Dritten die Umsetzung von Policies prüfen lassen, und außerdem den Security Incident Management Prozeß betrieben.
+Das bedeutet: Ich habe Security Policy definiert, Fachabteilungen bei der Umsetzung von Policies beraten und entweder selbst oder von Dritten die Umsetzung von Policies prüfen lassen, und außerdem den Security Incident Management Prozess betrieben.
 In der Praxis bedeutet das, daß ich am härtesten Arbeitstag meines Lebens mit der Hilfe von vielen Kollegen 
 [einmal]({% link _posts/2005-05-14-wenn-es-mal-wieder-laenger-dauert.md %}) 
 [das gesamte Rechenzentrum]({% link _posts/2005-05-14-danach.md %}) von web.de runter- und danach wieder hochgefahren habe, daß ich jede Menge über das BSI Grundschutzhandbuch und die BS 7799/ISO 17799 vs. die Praxis gelernt habe, daß ich jetzt erklären kann, wieso 
@@ -40,7 +40,7 @@ Ich glaube, das ist das Beste, was man über eine Führungskraft sagen kann.
 Die vergangenen zwei Jahre waren jedenfalls ein wilder und spannender Ritt.
 
 Er ist nun vorbei, der 
-[Change]({% link _posts/2005-07-26-change-request.md %}}) ist durchgeführt.
+[Change]({% link _posts/2005-07-26-change-request.md %}) ist durchgeführt.
 
 web.de ist jetzt United Internet.
 Und Isotopp ist nun kris bei MySQL.
@@ -49,7 +49,7 @@ Neben meinem Bett liegt ein Stapel Bücher von Joe Celko.
 Und bald schon werde ich wieder beim Kunden sein und ihn für Geld glücklich machen - das älteste Gewerbe der Welt. :-)
 
 In gewisser Weise wird es dadurch für mich wieder einfacher.
-Projektmanagement statt Prozeßmanagement hat klar definierte Ziele, klar definierte Deadlines, und damit auch klar definierte Erfolgserlebnisse.
+Projektmanagement statt Prozessmanagement hat klar definierte Ziele, klar definierte Deadlines, und damit auch klar definierte Erfolgserlebnisse.
 Entweder hat man fertig oder nicht.
 Entweder hat man die Unterschrift vom Kunden auf dem Abnahmezettel oder nicht.
 
@@ -59,7 +59,7 @@ Obwohl wir so verstreut sind, stehen wir zum Teil enger und schneller miteinande
 Mit MySQL 5.0 haben wir ein richtig feines Produkt, mit dem wir MySQL endgültig im Enterprise-Markt etablieren werden.
 Vor uns liegt die Herausforderung, die schlagkräftige [Professional](http://www.mysql.com/consulting/) 
 [Services](http://www.mysql.com/training/) [Organisation](http://www.mysql.com/support/) aufzubauen, die dann auch dauerhaft die Dienstleistung bringen kann, die in diesem Bereich gefordert wird.
-Das [junge EMEA]({% link _posts/2005-09-10-mysql-consulting-bootcamp-munich-2005.md %}})-Team ist gerade dabei, seine Sollkonfiguration zu erreichen.
+Das [junge EMEA]({% link _posts/2005-09-10-mysql-consulting-bootcamp-munich-2005.md %})-Team ist gerade dabei, seine Sollkonfiguration zu erreichen.
 
-Ich freue mich drauf, mit diesen Leuten Dinge zu bewegen und neue Sachen zu lernen, die ich mir vorher nie zugetraut hätte.
-Vor allen Dingen freue ich mich aber darauf, mit einem internationalen Team zusammenzuarbeiten und - wenn ich denn schon wieder Kilometer reißen muß - dies auf einer wirklich großen Landkarte zu tun.
+Ich freue mich darauf, mit diesen Leuten Dinge zu bewegen und neue Sachen zu lernen, die ich mir vorher nie zugetraut hätte.
+Vor allen Dingen freue ich mich aber darauf, mit einem internationalen Team zusammenzuarbeiten und - wenn ich denn schon wieder Kilometer reißen muss - dies auf einer wirklich großen Landkarte zu tun.
