@@ -12,7 +12,7 @@ tags:
 
 > As a developer using Python, I want to be able to hand 
 > a `list` to an SQL statement with a 
-> `WHERE id IN (…)` clause and it should do the right thing.
+> `WHERE id IN (…)` clause, and it should do the right thing.
 
 Well, that is not how it started, because it was asked on the  internal no-work-channel, so it kind of escalated more.
 
@@ -95,7 +95,7 @@ In Python 2, there was a MySQL database class called `MySQLdb` in the package `M
 Also, Python 3 wanted to do away with upper case letters in package names, anyway.
 
 So somebody took over the package, renamed it `mysqlclient` and made it Python 3 compatible, and kept the old class names in order to, uncharacteristically for Python, not break compatibility. 
-Hence you install the dependency `mysqlclient` to get the `MySQLdb` class.
+Hence, you install the dependency `mysqlclient` to get the `MySQLdb` class.
 
 Remember this the next time a Python person makes fun of your PHP needles and haystacks, or your Perl anything.
 
@@ -177,7 +177,7 @@ We make our own cursorclass, `DebugCursor`, which we let inherit from our cursor
 I happen to be partial to `DictCursor`, so I inherit from that.
 
 In my `DebugCursor`, I simply override `_query()`, log the query string and hand off things otherwise unchanged to the superclass. 
-Because I do that before everything else, I get my log out before stuff catches fire and my code burns to the ground.
+Because I do that before everything else, I get my log sent before stuff catches fire and my code burns to the ground.
 
 That way I get to see the replaced SQL before it runs, even it if is gibberish.
 So I can actually see that
