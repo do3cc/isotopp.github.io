@@ -12,7 +12,7 @@ tags:
 ---
 
 Ich [schrieb auf Twitter](https://twitter.com/isotopp/status/1450739310546886657) was zum aktuellen Begriff "Metaverse".
-Das hat zu einem Kontakt mit [Michael Carl](https://twitter.com/michacarl) geführt, der mich in seinem [Podcast](https://carls-zukunft.de/) haben wollte.
+Das hat zu einem Kontakt mit [Michael Carl](https://twitter.com/michacarl) geführt, der mich in seinem [Podcast](https://carls-zukunft.de/folge-58-how-to-build-a-metaversum-in-three-simple-steps/) haben wollte.
 Meine [Gesprächsnotizen und Vorbereitung](https://docs.google.com/document/d/1_OIl_bcrjVczLQrMrVnt5IoYbitp1504mb2GbQK0EM4/edit#heading=h.wbe6wnc7fg59) habe ich nun auch hier:
 
 # Metaverse
@@ -31,12 +31,12 @@ Fortnite war mal Battle Royale, aber ist inzwischen auch eine "Veranstaltungspla
 Leute haben dort Konzerte gegeben oder andere Veranstaltungen durchgeführt.
 Epic unterstützt das, recht offen, weil es Fortnite so auch bei Leuten bekannt macht, die an Battle Royal und Gamer-Kultur nicht primär interessiert sind.
 
-Epic Games macht auch die Unreal Engine, und die dazu gehörenden Pipelines zum Erstellen und Editieren von digitalen Game Assets, betreibt einen Markt für diese Dinge und baut auch sonst eine lebendige Infrastruktur zur Spielerzeugung und zur Vermarktung auf.
+Epic Games macht auch die Unreal Engine, und die dazu gehörenden Pipelines zum Erstellen und Editieren von digitalen Game-Assets, betreibt einen Markt für diese Dinge und baut auch sonst eine lebendige Infrastruktur zur Spielerzeugung und zur Vermarktung auf.
 Gewissermaßen ist dies die unsichtbare "Rückseite" von Spielen.
 
 ## Roblox
 
-Ganz ähnlich, aber viel mehr casual betreibt Roblox sowieso eine Plattform zur Spiele Erzeugung, und macht so Assets, aber auch einen Asset Markt.
+Ganz ähnlich, aber viel mehr casual betreibt Roblox sowieso eine Plattform zur Erzeugung von Spielen, und macht so Assets, aber auch einen Markt für Assets.
 Roblox ist vor allen Dingen bei jungen und sehr jungen Menschen populär, und wird bei älteren Menschen weit unterschätzt.
 
 ## Minecraft in zwei Geschmacksrichtungen
@@ -44,16 +44,16 @@ Roblox ist vor allen Dingen bei jungen und sehr jungen Menschen populär, und wi
 Minecraft ist ein Klassiker: Das originale Minecraft ist in Java geschrieben und inzwischen komplett durch Komponenten von Drittherstellern ersetzbar. Es gibt alternative Clients, alternative Server, alternative Assets.
 Das Spiel ist schlecht: Es ist eine Sandbox ohne viel Story und ohne Spielziel mit primitiver Grafik, die originalen Server sind langsam und fehlerhaft.
 
-Aber die Grafik ist simpel, sodaß das Spiel auch auf abgelegten Kartoffelcomputern funktioniert.
-Es ist alles in Java geschrieben, das sich leicht reversen und dann unkooperativ erweitern läßt, und so gibt es eine reichhaltige Community mit Moddern, Server- und Client-Plugins, und vielen anderen Erweiterungen.
-Das macht das Spiel populär und zu einer "Einstiegsdroge" in die Java-Programmierung bei jungen Menschen, weil es ein unglaubliches Selbstmotivations-Potential bietet.
+Aber die Grafik ist simpel, sodass das Spiel auch auf abgelegten Kartoffelcomputern funktioniert.
+Es ist alles in Java geschrieben, das sich leicht reversen und dann unkooperativ erweitern lässt, und so gibt es eine reichhaltige Community mit Moddern, Server- und Client-Plugins, und vielen anderen Erweiterungen.
+Das macht das Spiel populär und zu einer "Einstiegsdroge" in die Java-Programmierung bei jungen Menschen, weil es ein unglaubliches Potenzial für Selbstmotivation bietet.
 
 Nichts davon ist durch den derzeitigen Eigentümer Microsoft monetarisierbar.
 Als IP ist Minecraft für Microsoft gescheitert, weil Microsoft nach dem Kauf des Spiels nicht mehr Teil der Verwertungskette ist.
 
-Daher gibt es von Microsoft "Minecraft Bedrock Edition", performanter und besser designed, und von Grund auf mit einem Asset-Markt integriert.
+Daher gibt es von Microsoft "Minecraft Bedrock Edition", performanter und besser designt, und von Grund auf mit einem Asset-Markt integriert.
 Erweiterungen für Bedrock sind im Laden kaufbar, und nur dort.
-Man muß als Anbieter IP von Microsoft lizenzieren und dann Prozente zahlen, als Kunde sowieso.
+Man muss als Anbieter IP von Microsoft lizenzieren und dann Prozente zahlen, als Kunde sowieso.
 Bei den Spielern ist es deswegen kaum populär, steril und ohne eigene Kultur.
 Im Vergleich zu Java Edition noch ein größerer Fehlschlag.
 
@@ -67,12 +67,12 @@ Die tatsächliche Definition von "Metaverse" sind also nicht 3D-Brillen, sondern
 
 Oder offener: Das Anzapfen der Spieleverwertungskette an jeder Stelle im Produktionsfluß, und das Aufwerten der Spieleverwertungskette durch Integration mit Intellectual Property aus Filmen und Büchern.
 
-Es geht also darum, aus dem Lebenszeit-Konsum-Budget einer Person mehr Geld herauszuziehen, ohne zu viel Lebenszeit bei dieser Person zu verbrauchen, also um eine Aufweitung von Ausgaben für "Medien" im allerweitesten Sinne.
+Es geht also darum, aus dem Lebenszeit-Konsum-Budget einer Person mehr Geld herauszuziehen, ohne zu viel Lebenszeit bei dieser Person zu verbrauchen, also um eine Aufweitung von Ausgaben für "Medien" im aller weitesten Sinne.
 
-## Aufmerksamkeits- und Geldbudget
+## Budgets für Aufmerksamkeit und Geld
 
 Menschen haben Geldlimits für ihre Freizeit, der [Konsumanteil des verfügbaren Einkommens](https://de.wikipedia.org/wiki/Verf%C3%BCgbares_Einkommen).
-Sie haben auch Zeitlimits für ihre Freizeit, ein Aufmerksamkeits-Budget.
+Sie haben auch Zeitlimits für ihre Freizeit, ein Budget für Aufmerksamkeit.
 Beides ist konvertibel, aber das hängt am Medium.
 
 Nimmt man eine nützliche Lebenszeit, in der ich "Lesen" kann von 60 Jahren an, und unterstellt man einem fleißigen Leser 40 Bücher (eines pro Woche) im Jahr, dann wird diese Person in ihrem Leben 2400 Bücher lesen, im Wert von sagen wir ~30 Euro pro Stück.
@@ -84,12 +84,12 @@ Das setzt eine Größenordnung von Lebensumsatz pro Person für diese Dinge, als
 Wir sehen insbesondere, daß Spiele im Vergleich zu ihrem Produktionsaufwand viel zu billig sind, aber ein höherer Preis als 60 Euro ist auch für einen AAA-Titel nicht durchsetzbar.
 Das ist einer der Gründe, warum in jedem einzelnen dieser Spiele weitere Möglichkeiten zum Geldausgeben enthalten sind.
 
-Generell ist es aber bei beiden Medien so, daß das Geldausgaben im Vergleich zu der aufgewendeten Zeit zu langsam ist:
-Die Burnrate muß hoch.
+Generell ist es aber bei beiden Medien so, daß das Geldausgeben im Vergleich zu der aufgewendeten Zeit zu langsam ist:
+Die Burnrate muss hoch.
 Bücher, aber auch Filme und insbesondere AAA-Titel von Computerspielen sind viel zu werthaltig, und ihr Konsum ist zu aufwendig.
 Wir suchen was anderes, bei dem nicht so viele Minuten Lebenszeit pro ausgegebenem Euro aufgewendet werden müsse.
 
-Das ist kritisch, weil es ja auch noch viele freie Inhalte gibt, die auch um Aufmerksamkeit buhlen und “gut genug” sind, um bezahlte Inhalte zu verdrängen.
+Das ist kritisch, weil es ja auch noch viele freie Inhalte gibt, die auch um Aufmerksamkeit buhlen und "gut genug" sind, um bezahlte Inhalte zu verdrängen.
 Sie kosten Minuten Aufmerksamkeit, ohne Geld zu verdienen.
 
 ## Nebenschauplatz: Sterben und Erben
@@ -99,15 +99,15 @@ Ich habe zum Beispiel genau jetzt ca. 600 Steam Titel und 1000 Kindle Books.
 Wenn ich sterbe, sind das einige 10k Euro Wert.
 Wie vererbe ich die meinem Sohn?
 Die Politik hat keine Antworten, und die Hersteller lassen das nicht zu.
-Ich kann meinem Kind also nur mein Steam Login vermachen und von meinen Kindle-Büchern das DRM cracken.
+Ich kann meinem Kind also nur mein Steam Login vermachen und von meinen Kindle-Büchern das DRM knacken.
 
 Wirtschaftlich sind Kindle und Steam-Erbschaften für die Hersteller weitgehend irrelevant, oder wären sogar positiv, und es ist unklar, wieso man sich so sträubt:
 
-Wenn ein Haus am See erbe, kann ich da rein gehen, die Veranda aufschließen, in den Park gehen und so das Asset genießen.
+Wenn ein Haus am See erbe, kann ich da hereingehen, die Veranda aufschließen, in den Park gehen und so das Asset genießen.
 Das kostet mich nicht viel Zeit.
 
 Erbe ich dagegen eine Kindle- oder Steam-Library, kostet mich das viel Zeit in der Erschließung:
-Wenn ich 1200 Bücher erbe, sind das 30 Jahre Lebenszeit, die ich investieren muß, um das Erbe zu verarbeiten. 
+Wenn ich 1200 Bücher erbe, sind das 30 Jahre Lebenszeit, die ich investieren muss, um das Erbe zu verarbeiten. 
 Wenn ich 1000 Spiele erbe, sind da Titel von 2002 bei, die heute wie Dreck aussehen. 
 Ich erbe "Skyrim", muss aber "Skyrim VR" und "Skyrim Remastered" selbst kaufen.
 
@@ -127,10 +127,10 @@ Im Spiel "Elder Scrolls Online" zum Beispiel bekommt man als Spieler leicht und 
 Gegenstände zum Einrichten kann man sich als Trophäen erspielen, aber wesentliche Alltagsgegenstände zur Einrichtung sind nur via Echtgeld-Einsatz im Shop zu kaufen.
 
 Das für den Hersteller wunderbare dabei:
-Der Spieler kann in den Kauf von Cosmetics beliebig viel Geld rein pumpen und wird dabei kaum Lebenszeit oder Aufmerksamkeit aufbringen müssen.
+Der Spieler kann in den Kauf von Cosmetics beliebig viel Geld reinpumpen und wird dabei kaum Lebenszeit oder Aufmerksamkeit aufbringen müssen.
 Limitierend kann also nur die Geldbörse des Kunden wirken, nicht aber sein Zeitbudget.
 Das macht so etwas zu einem viel besseren Geschäftsfeld als Bücher, Filme oder die Spiele selbst.
-Das Spiel liefert nur den Kontext und Anlaß für die Cosmetics zu existieren und bestimmt ihr Aussehen.
+Das Spiel liefert nur den Kontext und Anlass für die Cosmetics zu existieren und bestimmt ihr Aussehen.
 
 ## Epic Games
 
@@ -140,10 +140,10 @@ Dazu gehören auch Werkzeuge zum Erzeugen der Ingame-Assets, aber auch der Betri
 Mit dem Epic Launcher und dem darin integrierten Shop auch eine Plattform zum Verkauf von Spielen, und zum Erfassen von Meta- und Nutzungsdaten an Epic, die dann wiederum (gegen Geld) dem Spielhersteller als Analytics angeboten werden.
 Das von Epic betriebene Payment-System ist die Pipeline, über die Geld vom Kunden zum Spielhersteller fließen kann, und über die nicht nur die Spiele, sondern auch Erweiterungen, In-Game Käufe und andere Geldausgaben abgewickelt werden können.
 
-Mit Fortnite hat man aber auch ein eigenes Spiel am Start, das zugleich auch 3D Assets an Endkunden als Ausrüstungsgegenstände, Cosmetics oder sonstwie verkaufen kann.
+Mit Fortnite hat man aber auch ein eigenes Spiel am Start, das zugleich auch 3D Assets an Endkunden als Ausrüstungsgegenstände, Cosmetics oder sonst wie verkaufen kann.
 
 Fortnite ist eine bestimmte Sorte Spiel - Player vs. Player, im Battle Royal Modus, Spieler treten gegeneinander an und der letzte Überlebende gewinnt.
-Diese Sorte Spiel ist nicht für alle Zielgruppen interessant, aber die Engine von Fortnite läßt sich auch anderweitig nutzen.
+Diese Sorte Spiel ist nicht für alle Zielgruppen interessant, aber die Engine von Fortnite lässt sich auch anderweitig nutzen.
 Entsprechend weckt man Interesse durch Nutzung von Fortnite als "virtuelle Veranstaltungsplattform" und hält das Interesse durch Media Tie-Ins und Licensed IP aufrecht.
 
 Die Interpretation von Metaverse als Verwertungskette von digitalen Assets, speziell 3D Assets, als "Online-Merchandise" greift jedoch zu kurz: 
@@ -155,12 +155,12 @@ Gewissermaßen will man die Idee der "Microsoft-Tax" in einem anderen Kontext wi
 
 Unterschiedliche Ausgangspositionen bei
 
-- Epic Games/Fortnite - Schwach bei IP, aber original IP, wenn auch Nische, Unreal Engine und die anderen Dinge auf der "Rückseite" der Spiele als große Stärke.
+- Epic Games/Fortnite - schwach bei IP, aber original IP, wenn auch Nische, Unreal Engine und die anderen Dinge auf der "Rückseite" der Spiele als große Stärke.
 - Roblox - original IP, sehr junge Kundschaft, erzieht sich gerade Kinder, 10 Jahre warten, groß unterschätzt.
 - Microsoft - Minecraft, MS Store et al, zu Enterprise um erfolgreich zu sein? Aber Halo, MSFS.
 - Apple (sic!) - kein IP, aber Plattform/Kette.
-- Disney (sic!) - nur IP, aber schwach in Verwertung ausserhalb von Filmen/offline Merchandise.
-- Facebook - will da unbedingt rein, "Enterprise Pivot": wenn Social in Zukunft "hier" stattfindet, dann muß Faebook "hier" sein.
+- Disney (sic!) - nur IP, aber schwach in Verwertung außerhalb von Filmen/offline Merchandise.
+- Facebook - will da unbedingt rein, "Enterprise Pivot": wenn Social in Zukunft "hier" stattfindet, dann muss Facebook "hier" sein.
 - Google - insbesondere der Grund, wieso Google Stadia nicht wirklich einstellen kann, selbst wenn es ein Flop wird/ist.
 - Amazon - hier ist auch die Spiele Strategie von Amazon mit einordnen. Amazon wäre gerne das AWS der Spielewelt anstelle von Epic.
 
@@ -169,12 +169,12 @@ Unterschiedliche Ausgangspositionen bei
 [Cynefin](https://en.wikipedia.org/wiki/Cynefin_framework) als Market Maturity Model. 
 
 Wir sind derzeit in einer chaotischen Phase der Marktentwicklung:
-Niemand hat ein Gescháftsmodell in diesem Markt, es ist unklar wie dieser überhaupt aussehen wird.
-Standard existieren noch nicht.
+Niemand hat ein Geschäftsmodell in diesem Markt, es ist unklar, wie dieser überhaupt aussehen wird.
+Standards existieren noch nicht.
 
 Es geht um Landgrab, also um den Aufbau von Marktanteilen in einem entstehenden und wachsenden Markt. 
-Interop ist sekundär, weil noch keine Idee herrscht, wie die Standards aussehen werden.
-Man versucht sich vom Mitbewerb durch Features zu Differenzieren, und dabei auch herauszufinden, was wichtig ist.
+Interop ist sekundär, weil noch keine Idee vorhanden ist, wie die Standards aussehen werden.
+Man versucht sich vom Mitbewerb durch Features zu differenzieren, und dabei auch herauszufinden, was wichtig ist.
 Alle Spieler wachsen in einem wachsenden, entstehenden Markt.
 
 Sobald es ein Geschäftsmodell, stabile Featurelisten und ein System zur Geldextraktion gibt, wird sich der Markt konsolidieren.
@@ -187,22 +187,22 @@ Das wird dann aber auch - zähneknirschend - zu Interoperabilität führen.
 
 Das führt uns zur überarbeiteten Definition von Metaverse: 
 Die Integration der Spieleindustrie mit der Unterhaltungsindustrie und die Integration der Wertschöpfungsketten, mit der Möglichkeit die Verwertungskette an jeder Stelle im Produktionsfluß mit einer Art Steuer zu belegen.
-Ein systematisches Anzapfen des Lifetime Intellectial Property-Konsumbudgets einer Person, und die Aufweitung des Marktes, der für einen Konsumenten relevant ist. 
+Ein systematisches Anzapfen des Lifetime Intellectual Property-Konsumbudgets einer Person, und die Aufweitung des Marktes, der für einen Konsumenten relevant ist. 
 
 Die Erkenntnis, daß Buch, Filme und Spiele zu zeitaufwendig zu erstellen und zu konsumieren sind.
-3D Assets ist viel größere Verkaufsgelegenheit, ohne daß der Kunde so viel Lebenszeit investieren muß, um tatsächlich den Kauf zu konsumieren.
+3D Assets ist viel größere Verkaufsgelegenheit, ohne daß der Kunde so viel Lebenszeit investieren muss, um tatsächlich den Kauf zu konsumieren.
 
 Vor diesem Hintergrund ist auch die laufende Auseinandersetzung von Epic vs. Apple und Google vor Gericht zu lesen: Es geht darum, das Anzapf-Monopol von Apple und den von Apple dominierten Markt für andere zu Öffnen zu unterminieren.
 
 Besondere deutsche Probleme dabei:
 - keine Infrastruktur für Highspeed, Low Latency wie man das für Spiele braucht.
 - keine deutsche Firma mit nennenswerter Identity Plattform (web.de? T-Online? "Login mit x").
-- keine deutschen Resourcen im 3D-Asset Tooling, Produktion, ... Markt.
+- keine deutschen Ressourcen im 3D-Asset Tooling, Produktion, ... Markt.
 - keine deutsche Film/Fernseh/Lit Industrie zur Produktion von IP, Stories, die weltweit wiedererkennbare Kultur prägen, die man verkaufen kann.
-- Deutscher Blick geht nach Innen, ins eigene Land, nicht auf einen Weltmarkt. 
+- Deutscher Blick geht nach innen, ins eigene Land, nicht auf einen Weltmarkt. 
 
 Vergleiche dabei Korea: koreanische Produktionsketten in K-Pop; die "cultural technology" die andere Stile und Kunstrichtungen aufgreift und in K-Pop integriert; Produktionspipelines für Stars und Sternchen, aber auch für IP (beginnend).
-Im Vergleich ist Deutschland essentiell wehrlos und angehängt.
+Im Vergleich ist Deutschland essenziell wehrlos und angehängt.
 
 ## Toxisch-dystopische Interpretation
 
@@ -210,17 +210,17 @@ Das "Eigentum" in einer simulierten Realität sieht aus wie Eigentum, ist aber v
 Es kommt im virtuellen zur einer Entfernung von Ressourcenknappheit bei der Produktion, aber "Wert" entsteht nur, wenn die Ware künstlich verknappt wird beim Konsum.
 
 Die Zollhaus-Stellen, Plattformbetreiber haben volle Markttransparenz, und können das Freizeit-Konsumverhalten jeder Person genau ausmessen.
-Sie wissen, was Du siehst und hörst, was du benutzt, welche Stile Dir zusagen und können diese Information gegen Geld an Kreative verkaufen, und verkaufen den Kreativen auch gegen Geld den Zugang zu Dir.
+Sie wissen, was Du siehst und hörst, was Du benutzt, welche Stile Dir zusagen und können diese Information gegen Geld an Kreative verkaufen, und verkaufen den Kreativen auch gegen Geld den Zugang zu Dir.
 
 Ein Freund von mir:
-> Nur ein halber Witz: man muss in Zukunft bei Geburt eines Kindes als erstes entscheiden muss, ob es Apple-, Google- oder Facebook-Angehöriger wird und der Name erst danach entsprechend den Regeln des Dienstes festgelegt wird. Wechsel zwischen den Services ist dann komplex wie eine Emigration nach Nordkorea.
+> Nur ein halber Witz: man muss in Zukunft bei Geburt eines Kindes als Erstes entscheiden muss, ob es Apple-, Google- oder Facebook-Angehöriger wird und der Name erst danach entsprechend den Regeln des Dienstes festgelegt wird. Wechsel zwischen den Services ist dann komplex wie eine Emigration nach Nordkorea.
 
 Zentraler Bestandteil bezüglich der Verknappung auch DRM, hier unter dem Modenamen "NFT" - "NFT" ist das Blockchain Wort für DRM, nur zusätzlich mit Umweltvergiftung durch Energieverschwendung.
 Unikate gibt es nur mit:
 
 - Rechner zunageln,
 - TPM,
-- in-game nur lizensierte Assets und Mods verwendbar, und
+- in-game nur lizenzierte Assets und Mods verwendbar, und
 - NFT Laser Eyes Kryptoscheisse, die den Planeten verbrennt.
 
 In diesem Kontext ist auch das aktuelle Engagement von Epic im NFT Misthaufen zu lesen sehen.
@@ -233,7 +233,7 @@ Der Freund kommentiert wieder:
 Sie kaufen in Metaverse-Shops, daten ihre Partner in Metaverse-Locations, sehen nur noch Werbung für im Metaverse verfügbare Waren, können Metaverse-kritische Gedanken kaum noch formulieren.
 Es gibt keinen Public-Space mehr im Leben, alles ist Teil der gated community (Vgl. Verlust der Almende).
 > 
-> Du hast vielleicht noch einen Wettbewerb zwischen x Metaverses, aber innerhalb eines Metaversums gibt es dann einen oder nur noch einen gesteuerten Wettbewerb.
+> Du hast vielleicht noch einen Wettbewerb zwischen x Metaversen, aber innerhalb eines Metaversums gibt es dann einen oder nur noch einen gesteuerten Wettbewerb.
 > D.h. das Metaversum monopolisiert den Menschen in seiner Gesamtheit.
 > 
 > Das ist ein bisschen wie die Minenstädte in den USA Ende des 19. Jhd. 
@@ -245,13 +245,13 @@ Das führt thematisch zur Geldtheorie:
 
 ## Currency
 
-> Durch die CryptoCurrencies ist für die großen jetzt klar, dass die Geldschöpfung "up for the grabs" ist. Ein Metaverse wäre der perfekte Ansatz das "en passant" mit zu realisieren.
+> Durch die CryptoCurrencies ist für die großen jetzt klar, dass die Geldschöpfung "up for the grabs" ist. Ein Metaversum wäre der perfekte Ansatz das "en passant" zu realisieren.
 
 An dieser Stelle kommt dann gleich wieder das Epic Engagement bei "Cryptocurrentcies" zum Tragen.
 Das ist sehr problematisch: 
-Metaversum und Produktion dort nimmt nur Resourcen aus der realen Welt, produziert dort aber nicht.
+Metaversum und Produktion dort nimmt nur Ressourcen aus der realen Welt, produziert dort aber nicht.
 Am Ende wird die reale Welt ärmer, dort leben wir aber.
-Was heisst das langfristig für Wertschöpfung und Geld?
+Was heißt das langfristig für Wertschöpfung und Geld?
 
 # Material
 
@@ -270,7 +270,7 @@ Alle Firmen unvollständig aufgestellt. Akquise schwierig, wen kaufen? Und die z
 
 Im Gegensatz zu einem typischen Videospiel, bei dem man versucht, so viele Leute wie möglich dazu zu bringen, einmalig 60 Dollar für ein Spiel auszugeben, will ein Free-to-Play Spiel so viele Leute wie möglich zum Spielen zu animieren. Sobald sie spielen, bemüht sich das Unternehmen, so viele digitale Güter wie möglich an sie zu verkaufen. Es gibt zwar eine Obergrenze dafür, wie viel man für ein Spiel verlangen kann, aber es gibt keine Obergrenze für die Zahl an sinnlosen digitalen Tokens, die man verhökern kann.
 
-Metaverse: Industriealisiere diesen Prozess und Mainstreame ihn. Aspekte: Spielen nach Termin, Pay to Skip, Pay to Win.
+Metaverse: Industrialisiere diesen Prozess und mainstreame ihn. Aspekte: Spielen nach Termin, Pay to Skip, Pay to Win.
 
 ## Colorado Law Review Dark Patterns
 
@@ -312,15 +312,15 @@ The Metaverse is not…
 8. A “new UGC platform”
 
 Das ist natürlich Unsinn, es wird alle diese Dinge *auch* sein. 
-Das ist alles Valley Hype, um The Next Internet verkaufbar zu machen und eine gemeinsame Erzählung zu haben.
+Das ist alles Valley Hype, um The Next Internet als Begriff zu etablieren und eine gemeinsame Erzählung zu haben.
 Aber am Ende ist geht es genau um diese 8 Dinge die es angeblich NICHT sein soll.
 
-[Neuere 9 lange Artikel Serie](https://www.matthewball.vc/the-metaverse-primer) dazu.
+[Neuere Artikel Serie, 9 Artikel lang](https://www.matthewball.vc/the-metaverse-primer) dazu.
 
 ## [Fortnite Loyalty Program](https://twitter.com/DuddyAlan233/status/1391884040547049473)
 
-Es geht darum, User Engagement aufrecht erhalten.
-Das Problem muß jedes MMO lösen, denn 
+Es geht darum, User Engagement zu erhalten.
+Das Problem muss jedes MMO lösen, denn 
 
 - Die Leute leben nicht im Metaverse, die leben hier.
 - Primärer Konsum ist Casual, nicht High End Gamer.
@@ -328,7 +328,7 @@ Das Problem muß jedes MMO lösen, denn
 
 Erst wenn das Ding zu einem ständigen Ort wird, kann es ein Metaversum werden.
 Das ist noch ein langer Weg:
-Meine VR Brille steht hier ungenutzt rum (Oculus verkauft, wegen FB Zwang).
+Meine VR-Brille steht hier ungenutzt rum (Oculus verkauft, wegen FB Zwang).
 
 Das ist so, weil "in VR zu gehen" ein Akt ist (aufbauen, kalibrieren), und die Brille isoliert (ich bin dann weg), und weil es nicht viele Spiele gibt, die das sinnvoll nutzen (Elite Dangerous, MSFS-2020, Moss, selten auch Space Pirate Trainer).
 
@@ -336,11 +336,11 @@ Das ist so, weil "in VR zu gehen" ein Akt ist (aufbauen, kalibrieren), und die B
 
 ## [Pastry Eth Thread](https://twitter.com/PastryEth/status/1423803492314009606)
 
-Krypto Dummlall mit einigen guten Ideen, aber Illusionen über wie es laufen wird
+Crypto Dummlall mit einigen guten Ideen, aber Illusionen über wie es laufen wird
 - "1/5 of Facebook now working on AR", für FB ist das Metaverse zur Zeit "Oculus", "VR". Das ist ein gefährlicher Tunnelblick (siehe oben "casual").
-- "The "Metaverse" is a virtual space created by the convergence of virtually enhanced physical reality, AR & the internet: Our current 2D search based version of the internet is giving way to a fully 3D immersive reality": Das ist Quatsch, solange 3D nicht komplett Casual konsumierbar wird, und eine 3D Brille ist derzeit isolierend, schwer und verkabelt. 3D Assets in Pancake Games sind leichter und direkt verkaufbar, jetzt. "Cosmetics"
+- "The "Metaverse" is a virtual space created by the convergence of virtually enhanced physical reality, AR & the internet: Our current 2D search based version of the internet is giving way to a fully 3D immersive reality": Das ist Quatsch, solange 3D nicht komplett Casual konsumierbar wird, und eine 3D Brille ist derzeit isolierend, schwer und verkabelt. 3D Assets in Pancake Games sind leichter und direkt zu verkaufen, jetzt. "Cosmetics"
 - "The Metaverse is always “on” & is beyond the control of any individual. It exists in real time, can host any size audience, has a functioning economy, spans across platforms, provides interoperability for digital assets, & consists of the content and experiences its users create." Das Konzept 2nd 2nd Life, und die "3D Shoppingmalls" der frühen 90er feiern fröhliche Urständ, als Konzept nicht falsch und gleichzeitig total falsch. 3D Events, die Presence ersetzen sind interessant, aber super hart. 
-Auch hier Korean Cultural Technology, K-POP Konsum während Covid (Pancake, large Audiences, Gemeinschaftserrlebnisse, "VR" Nebensache)
+Auch hier Korean Cultural Technology, K-POP Konsum während COVID-19 (Pancake, large Audiences, Gemeinschaftserlebnisse, "VR" Nebensache)
 - "In the Metaverse, the earning power for young creators won’t be limited to the top 1%. There will be an entire new era of young entrepreneurs making a living in virtual worlds, earning real value and steady income quicker than ever imagined." LOL. In erster Linie geht es um Zollhäuschen entlang der Verwertungskette, mit dem durch Creators erschaffenen Mehrwert als Motor.
 - "Creators who were once limited in their ability by technological constraints, lack of capital, time, or creativity, now have everything that is needed. What happens when physical objects are dematerialized? All formerly scarce materials become abundant." LOL. DRM all the way ist notwendig, damit das funktioniert. Außerdem das Dauerversprechen vom Creators Paradise, wenn es tatsächlich um Monopolisierung der Wertschöpfungskette geht.
 
@@ -350,30 +350,30 @@ Danach: Thread degrades in Laser Eyes Nonsense
 
 > Digital twins will act as "foundations of the metaverse" and allow people to move between real and virtual spaces
 
-Das ist "2nd 2nd Life" [Skeumorphism](https://en.wikipedia.org/wiki/Skeuomorph) ist was wir machen, wenn wir noch nicht wissen, was die Design Language für eine neue Welt ist. Die ersten Autos sagen aus wie Kutschen, die ersten Apple Anwendungen haben Rolodexe und Moleskine imitiert. "Digital Twins" sind dasselbe Konzept, aber für ein Metaversum. 
+Das ist "2nd 2nd Life" [Skeumorphism](https://en.wikipedia.org/wiki/Skeuomorph) ist, was wir machen, wenn wir noch nicht wissen, was die Design Language für eine neue Welt ist. Die ersten Autos sagen aus wie Kutschen, die ersten Apple Anwendungen haben Rolodexe und Moleskine imitiert. "Digital Twins" sind dasselbe Konzept, aber für ein Metaversum. 
 
 Und die Kernidee:
 > In April 2020, music artist Travis Scott staged a virtual concert inside the game that was attended live by 12.3 million people. It was a global phenomenon that sent the American rapper to the top of all music charts and earned him a reported $20 million.
 
-Lies: "OMG, jemand hat in einem Kinder-Battle Royale Spiel Geld verdient ohne zu metzeln, sondern mit traditioneller Medienarbeit" führt sofort zu "Alle Ideen von 2nd Life von denen wir schon wissen, dass sie problematisch sind, feiern Wiederauferstehung"
+Lies: "OMG, jemand hat in einem Kinder-Battle Royale Spiel Geld verdient ohne zu metzeln, sondern mit traditioneller Medienarbeit" führt sofort zu "Alle Ideen von 2nd Life, von denen wir schon wissen, dass sie problematisch sind, feiern Wiederauferstehung."
 
 > "If the metaverse is an equivalent reality that coexists next to the physical reality, there needs to be a connection," said Weir-McCall.
 
-Ist es nicht, muss es nicht. Wenn es dann doch muss, eventuell eher AR als 3D-Modelle, denn Connection zur Realen Welt hat man mit einer vollen VR-Brille eben nicht. Was ich oben über Casual Konsum sage.
+Ist es nicht, muss es nicht. Wenn es dann doch muss, eventuell eher AR als 3D-Modelle, denn Connection zur realen Welt hat man mit einer vollen VR-Brille eben nicht. Was ich oben über Casual Konsum sage.
 
 Mein Freund merkt an:
 > Digital Twins / Digital Shadows sind übrigens auch Begriffe um den die Datenspur von Leuten zu bezeichnen.
 > Der Gesundheitsbereich versucht das ebenso zu etablieren, um anhand dieser Zwillinge Diagnostik betreiben zu können. 
 > Das wird auch noch einmal spannend, wie das mit dem Metaverse verbunden wird. 
-> Gerade aus Facebooks Sicht - welche Daten kann das Metaverse aus Deinem Avatar auslesen?
+> Gerade aus Facebooks Sicht - welche Daten kann das Metaversum aus Deinem Avatar auslesen?
 
 ## [Facebook Glass](https://www.reuters.com/technology/facebook-unveils-its-first-smart-glasses-2021-09-09/) und Akzeptanz
 
-Bei Google Brille waren die Träger erkenntbar, der Begriff Glassholes entstand.
-Mit mit Ray Ban ist das besser zu tarnen.
+Bei Google Brille waren die Träger erkennbar, der Begriff Glassholes entstand.
+Mit Ray Ban ist das besser zu tarnen.
 Ray Ban hat keinen technischen Beitrag zu Oculus und AR, es geht nur darum, den Markennamen und das Design als Tarnung für Oculus zu nehmen, um den Google Glass Effect zu vermeiden.
 Außerdem ist AR mehr Casual als VR.
-Mode erlaubt auch einfacheren Neuverkauft, siehe auch Apple Watch Zubehör.
+Mode erlaubt auch einfacheren Neuverkauf, siehe auch Apple Watch Zubehör.
 
 ## [Laser Eyes](https://twitter.com/Cryptomarsmoon/status/1448249433573904384)
 
