@@ -4,6 +4,7 @@ published: true
 title: Unerklärlicher Umsatzrückgang
 author-id: isotopp
 date: 2004-01-27 21:31:44 UTC
+tags:
 - politik
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg
