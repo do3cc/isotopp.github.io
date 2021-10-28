@@ -10,7 +10,7 @@ tags:
 ---
 
 It occurred to me that I do not know nearly enough how git works, internally.
-The contents of the .git directory seem to be accessible enough, so I am going on a Safari in this blogs git repository.
+The contents of the .git directory seem to be accessible enough, so I am going on a Safari in the git repository of this blog.
 You can follow along if you check out [the blog](https://github.com/isotopp/isotopp.github.io/).
 
 # Refs
@@ -101,7 +101,7 @@ $ git cat-file -p  bf447432a99b33174809dbe10d1df43576a032b3
 ...
 ```
 
-The important takeaway seems to be that git does not store changes made to files, it stores full files.
+The important takeaway seems to be that git does not store changes made to a file, it stores full files.
 That is less inefficient than it sounds, because unchanged files will have the same hash.
 Things with the same  hash will exist only once in storage, no matter in how many commits (or trees) they are being referenced.
 
