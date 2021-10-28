@@ -4,6 +4,7 @@ published: true
 title: Wieviel Load darf es denn sein?
 author-id: isotopp
 date: 2005-06-24 08:47:16 UTC
+tags:
 - computer
 - dedicated server
 - linux
