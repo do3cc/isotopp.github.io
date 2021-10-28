@@ -11,4 +11,6 @@ tags:
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg
 ---
-<div align='center'><img width='450' height='338' border='0' hspace='5' src='/uploads/pizza.jpg' alt='' /></div>
+
+![](/uploads/pizza.jpg)
+
