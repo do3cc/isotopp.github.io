@@ -11,9 +11,9 @@ feature-img: assets/img/background/rijksmuseum.jpg
 ---
 
 In 
-[Open Source Software und Firmen]({% link _posts/2004-12-14-open-source-software-und-firmen.md %}}) habe ich versucht zu formulieren, unter welchen Gesichtspunkten es für Firmen rentabel und sinnvoll sein kann, "Intellectual Property mit Gewinn zu verschenken": 
+[Open Source Software und Firmen]({% link _posts/2004-12-14-open-source-software-und-firmen.md %}) habe ich versucht zu formulieren, unter welchen Gesichtspunkten es für Firmen rentabel und sinnvoll sein kann, "Intellectual Property mit Gewinn zu verschenken": 
 
-> Wenn wir Open Source schreiben, dann tun wir das in dem Bewußtsein, daß wir von vorneherein geschäftsspezifische Logik und allgemeingültigen Code getrennt halten müssen.
+> Wenn wir Open Source schreiben, dann tun wir das in dem Bewusstsein, daß wir von vorneherein geschäftsspezifische Logik und allgemeingültigen Code getrennt halten müssen.
 > 
 > Allen allgemeingültigen Code entwickeln wir auf Kosten des Hauses so weit, daß er vom Projekt als unsere Contribution in die offizielle Codebasis zurück akzeptiert wird. 
 > Dadurch sind wir die Verantwortung für diesen Code los und können Weiterentwicklungen an diesem Code aus der offiziellen Codebasis ohne Änderung im Hause nutzen.
@@ -27,7 +27,7 @@ Inzwischen kommen solche Ideen auch bei Beraterfirmen wie Gartner an. Unter der 
 [Open Source - eine Bedrohung für Software-Entwickler?](http://www.golem.de/0507/39047.html) 
 findet sich trotz des falschen Titels sinnvoller Content: 
 
-> Viele große Software-Hersteller würden ihr gesamtes Software-Portfolio prüfen, um festzustellen, welche Produkte von strategischer Bedeutung sind, um andere Produkte oder solche, mit denen kein Geld verdient wird, als Open Source frei zu geben, so Hayward laut ZDNet Australia. 
+> Viele große Software-Hersteller würden ihr gesamtes Software-Portfolio prüfen, um festzustellen, welche Produkte von strategischer Bedeutung sind, um andere Produkte oder solche, mit denen kein Geld verdient wird, als Open Source freizugeben, so Hayward laut ZDNet Australia. 
 
 ...
 
@@ -37,6 +37,6 @@ Vielmehr werde Software zunehmend kostenlos als Open Source angeboten oder nach 
 
 Firmen und ihre Beraterfirmen kapieren langsam, was Open Source tatsächlich macht: 
 Kosten für Infrastrukturentwicklung sozialisieren und unter allen Marktbegleitern aufteilen. 
-Dadurch wird es am Open Source Prozeß teilnehmenden und fair spielenden Firmen möglich, kooperative Vorteile zu nutzen und sich auf den Teil des Geschäftes zu konzentrieren, mit dem sie sich zur Zeit vom Restmarkt differenzieren. 
+Dadurch wird es am Open Source Prozess teilnehmenden und fair spielenden Firmen möglich, kooperative Vorteile zu nutzen und sich auf den Teil des Geschäftes zu konzentrieren, mit dem sie sich zurzeit vom Restmarkt differenzieren. 
 
-Diesen Teil der Software werden Firmen in der Regel (zunächst) proprietär halten und mit Hilfe von Plugin-Schnittstellen auf die Infrastruktur drauf setzen - wenn es nicht sowieso Daten oder Dienstleistungen sind, mit denen die Differenzierung erfolgt.
+Diesen Teil der Software werden Firmen in der Regel (zunächst) proprietär halten und mithilfe von Plugin-Schnittstellen auf die Infrastruktur drauf setzen - wenn es nicht sowieso Daten oder Dienstleistungen sind, mit denen die Differenzierung erfolgt.
