@@ -3,7 +3,7 @@ layout: post
 title:  'MySQL: Python and WHERE ... IN ()'
 author-id: isotopp
 feature-img: assets/img/background/mysql.jpg
-date: 2021-09-28 14:06:51 +0200
+date: 2021-10-28 14:06:51 +0200
 tags:
 - lang_en
 - mysql
