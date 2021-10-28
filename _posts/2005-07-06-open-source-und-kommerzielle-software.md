@@ -4,6 +4,7 @@ published: true
 title: Open Source und kommerzielle Software
 author-id: isotopp
 date: 2005-07-06 09:21:00 UTC
+tags:
 - free software
 - lizenz
 - lang_de
