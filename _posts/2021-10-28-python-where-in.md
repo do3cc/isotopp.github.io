@@ -81,7 +81,7 @@ def query():
 sql()
 ```
 
-In case you didn't spot it: you can safely generate the `WHERE d IN …` clause by handing it a string placeholder and then handing it a `list`.
+In case you didn't spot it: you can safely generate the `WHERE d IN …` clause by supplying a string placeholder and then handing it a `list`.
 Do not provide parens, the list will bring its own: It is `select d from t where id in %s` and *not* `select d from t where id in ( %s )`.
 
 # Why is that safe?
