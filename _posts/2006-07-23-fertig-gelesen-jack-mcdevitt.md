@@ -4,6 +4,7 @@ published: true
 title: 'Fertig gelesen: Jack McDevitt'
 author-id: isotopp
 date: 2006-07-23 14:35:17 UTC
+tags:
 - media
 - review
 - lang_de
@@ -47,7 +48,7 @@ Die neuste Alex Benedict Story, [Seeker](http://www.amazon.de/gp/product/0441013
 Außerhalb des Hutchins/Benedict-Universums spielt 
 [Ancient Shores](http://www.amazon.de/gp/product/0061054267/):
 In der Mitte von Nirgendwo, in North Dakota, wo vor 10000 Jahren ein Postglazialer Tauwasser-See die Prärie auf einer Fläche mehrerer US-Bundesstaaten überschwemmte, findet ein Bauer beim Pflügen ein Boot, das aus einem unzerstörbaren Material gemacht ist und das im Dunkeln leuchtet.
-Auf der Suche nach seinem Heimathafen finden er und seine Freunde etwas anderes, viel größeres:
+Auf der Suche nach seinem Heimathafen finden er und seine Freunde etwas anderes, viel Größeres:
 Ein Tor zu den Sternen.
 
 ([Jack McDevitt](http://en.wikipedia.org/wiki/Jack_McDevitt) in der Wikipedia)
