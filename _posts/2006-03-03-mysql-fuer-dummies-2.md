@@ -9,10 +9,11 @@ tags:
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg
 ---
-Für die folgenden Beispiele wird eine breitere Tabelle gebraucht, und es müssen auch einige Testdaten vorhanden sein. Daher hier einmal eine Tabellendefinition und ein Generatorscript für Testdaten:
 
+Für die folgenden Beispiele wird eine breitere Tabelle gebraucht, und es müssen auch einige Testdaten vorhanden sein.
+Daher hier einmal eine Tabellendefinition und ein Generatorscript für Testdaten:
 
-{% highlight console %}
+```console
 root@localhost [rootforum]> drop table t;
 Query OK, 0 rows affected (0.00 sec)
 
@@ -20,12 +21,11 @@ root@localhost [rootforum]> create table t ( id bigint unsigned not null, d char
 Query OK, 0 rows affected (0.22 sec)
 root@localhost [rootforum]>
 [1]+  Stopped                 mysql -u root -p
+```
 
-{% endhighlight %}
+und
 
-
-
-{% highlight console %}
+```console
 h743107:~ # cat gendata.pl
 #! /usr/bin/perl -w
 
@@ -75,36 +75,38 @@ drwxr-xr-x  5 mysql mysql       4096 2006-02-11 11:52 ..
 -rw-rw----  1 mysql mysql       8628 2006-02-11 11:48 t.frm
 -rw-rw----  1 mysql mysql 1000000000 2006-02-11 12:04 t.MYD
 -rw-rw----  1 mysql mysql       1024 2006-02-11 12:04 t.MYI
+```
 
-{% endhighlight %}
+Wir erzeugen hier eine Tabelle mit einem `UNSIGNED BIGINT "id"` (8 Byte), zwei `CHAR` Spalten `d` und `e` von 12 und 25 Zeichen Breite und einer Spalte `i INTEGER UNSIGNED`.
+Alle Werte sind, wie sich das gehört, NOT NULL.
 
+Das Generatorscript füllt diese Spalten mit aufsteigenden Werten für `id`, zufälligen Texten für `d` und `e` und mit Zufallszahlen für `i`.
+Es braucht auf meinem MR2 gut 20 Minuten, um eine 1.3 GB große Loader-Datei mit 20 Mio Datensätzen zu erzeugen.
+Der Load erfolgt dann mit dem relativ schnellen LOAD DATA INFILE Kommando.
+Da keine Indices mitzuführen sind, geht der Load mit 105 Sekunden (190000 Rows/sec, 12380 KB/sec) über die Bühne.
+Das ist etwa 1/3 der Bruttogeschwindigkeit der Platte, und daher relativ akzeptabel.
 
-Wir erzeugen hier eine Tabelle mit einem UNSIGNED BIGINT "id" (8 Byte), zwei CHAR Spalten d und e von 12 und 25 Zeichen Breite und einer Spalte i INTEGER UNSIGNED. Alle Werte sind, wie sich das gehört, NOT NULL.
-
-Das Generatorscript füllt diese Spalten mit aufsteigenden Werten für id, zufälligen Texten für d und e und mit Zufallszahlen für i. Es braucht auf meinem MR2 gibt 20 Minuten, um eine 1.3 GB große Loaderdatei mit 20 Mio Datensätzen zu erzeugen. Der Load erfolgt dann mit dem relativ schnellen LOAD DATA INFILE Kommando. Da keine Indices mitzuführen sind, geht der Load mit 105 Sekunden (190000 Rows/sec, 12380 KB/sec) über die Bühne. Das ist etwa 1/3 der Bruttogeschwindkeit der Platte, und daher relativ akzeptabel.
-
-Die resultierende MYD-Datei verbraucht 50 Byte/Record und ist Fixed, sodaß 100 Mio Bytes (954 MB) für Datenfile verwendet werden. Ein Index wird nicht erzeugt, weil keiner definiert ist, daher ist die MYI-Datei minimal groß.
+Die resultierende MYD-Datei verbraucht 50 Byte/Record und ist `Fixed`, sodass 100 Mio Bytes (954 MB) für Datenfile verwendet werden. 
+Ein Index wird nicht erzeugt, weil keiner definiert ist, daher ist die MYI-Datei minimal groß.
 
 Die Daten sind drin:
 
-
-{% highlight console %}
+```console
 h743107:~ # fg
 mysql -u root -p
 
 root@localhost [rootforum]> show warnings;
 Empty set (0.00 sec)
 
-root@localhost [rootforum]> select count(\*) from t;
+root@localhost [rootforum]> select count(*) from t;
 +----------+
-| count(\*) |
+| count(*) |
 +----------+
 | 20000000 |
 +----------+
 1 row in set (0.01 sec)
 
 root@localhost [rootforum]> show table status like "t"\G
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* 1. row \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
            Name: t
          Engine: MyISAM
         Version: 9
@@ -124,20 +126,21 @@ Max_data_length: 214748364799
  Create_options:
         Comment:
 1 row in set (0.00 sec)
+```
 
-{% endhighlight %}
+Die `Data_length` bei `SHOW TABLE STATUS` gibt also die Größe der MYD-Datei an, die `Index_length` ist die Größe der MYI-Datei.
+`Data_free` sagt, daß in der MYD-Datei keine Lücken existieren.
 
+Das ist sehr wichtig, wenn in eine MyISAM-Tabelle mit `INSERT` Daten eingefügt werden: 
+Neue Werte werden nun *am Ende* der MYD-Datei angefügt, und zwar ohne Locking - `SELECT` können also auf diese Tabelle ausgeführt werden, ohne sich mit den `INSERT` um den Zugriff zu prügeln - aber das funktioniert nur, solange `Data_free: 0` ist.
 
-Die Data_length bei SHOW TABLE STATUS gibt also die Größe der MYD-Datei an, die Index_length ist die Größe der MYI-Datei. Data_free sagt, daß in der MYD-Datei keine Lücken existieren.
+In Fixed-Tabellen ist es recht leicht, Data_free auf 0 zu bekommen - da alle Records gleich groß sind, wird das irgendwann einmal sicher der Fall sein, wenn Daten eingefügt werden und man kann mit der `Avg_row_length` und dem Wert aus `Data_free` leicht ausrechnen, wann das der Fall sein wird. 
+`OPTIMIZE TABLE` schließt die Lücken auch, kann aber sehr lange dauern, und sobald das erste Mal aus der Tabellen mitten rausgelöscht wird, ist das gute OPTIMIZE wieder beim Teufel.
 
-Das ist sehr wichtig, wenn in eine MyISAM-Tabelle mit INSERT Daten eingefügt werden: Neue Werte werden nun [b]am Ende[/b] der MYD-Datei angefügt, und zwar ohne Locking - SELECT können also auf diese Tabelle ausgeführt werden, ohne sich mit den INSERT um den Zugriff zu prügeln - aber das funktioniert nur, solange Data_free 0 ist.
+Mit MyISAM MERGE-Tables oder mit MySQL 5.1 DATA PARTITIONS kann man Tabellen bauen, aus denen sich Daten löschen lassen, ohne Lücken aufzureißen.
+`Data_free` bleibt dann immer schon 0 und `Concurrent_insert` kann durchgeführt werden.
 
-In Fixed-Tabellen ist es recht leicht, Data_free auf 0 zu bekommen - da alle Records gleich groß sind, wird das irgendwann einmal sicher der Fall sein, wenn Daten eingefügt werden und man kann mit der Avg_row_length und dem Wert aus Data_free leicht ausrechnen, wann das der Fall sein wird. OPTIMIZE TABLE schließt die Lücken auch, kann aber sehr lange dauern, und sobald das erste Mal aus der Tabellen mittenraus gelöscht wird, ist das gute OPTIMIZE wieder beim Teufel.
-
-Mit MyISAM MERGE-Tables oder mit MySQL 5.1 DATA PARTITIONS kann man Tabellen bauen, aus denen sich Daten löschen lassen ohne Lücken aufzureißen. Data_free bleibt dann immer schon 0 und Concurrent_insert kann durchgeführt werden.
-
-
-{% highlight console %}
+```console
 root@localhost [rootforum]> show variables like "concurrent%";
 +-------------------+-------+
 | Variable_name     | Value |
@@ -145,7 +148,10 @@ root@localhost [rootforum]> show variables like "concurrent%";
 | concurrent_insert | ON    |
 +-------------------+-------+
 1 row in set (0.00 sec)
-{% endhighlight %}
+```
 
+Man kann sich dies in der `[mysqld]`-Sektion seiner `/etc/my.cnf` leicht konfigurieren (`concurrent_insert = 1`).
 
-Man kann sich dies in der [mysqld]-Sektion seiner /etc/my.cnf leicht konfigurieren (concurrent_insert = 1).
+(geschrieben für
+[Rootforum](http://www.rootforum.de/forum/viewforum.php?f=23)
+und hier herüber geschafft zur Archivierung)
