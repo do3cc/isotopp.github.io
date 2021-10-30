@@ -20,8 +20,9 @@ Im Spiegel vertritt
 die Auffassung: 
 
 > Seine Partei trete dafür ein, in Deutschland wieder ein stärkeres Gemeinschafts- und Nationalgefühl zu entwickeln, sagte CSU-Generalsekretär Markus Söder der "Berliner Zeitung". 
-> >"Deutschland braucht einen ideellen Überbau", sagte Söder dem Blatt.
-> Das trifft in dieser allgemeinen Form eine ganze Menge Knöpfe bei mir.
+> "Deutschland braucht einen ideellen Überbau", sagte Söder dem Blatt.
+
+Das trifft in dieser allgemeinen Form eine ganze Menge Knöpfe bei mir.
 
 Da ist einmal der Hintergrund zu den Unruhen in den französischen Trabantenstädten - das Schlagwort der Berichterstattung, das in Bezug auf die deutsche Gesellschaft verwendet worden ist, ist "Parallelgesellschaft".
 In der öffentlichen Diskussion ist dieser Begriff wegen der französischen Ereignisse in erster Linie mit Einwanderern aus muslimischen Ländern verbunden worden, aber in meinem Erleben ist der Begriff allgemeiner, und ich nehme jede Menge andere "Parallelgesellschaften" und weniger scharf abgegrenzte "Subkulturen" in meinem Umfeld wahr.
