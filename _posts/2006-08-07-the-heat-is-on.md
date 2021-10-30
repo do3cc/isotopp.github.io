@@ -4,6 +4,7 @@ published: true
 title: The Heat Is On
 author-id: isotopp
 date: 2006-08-07 18:24:00 UTC
+tags:
 - computer
 - data center
 - lang_de
