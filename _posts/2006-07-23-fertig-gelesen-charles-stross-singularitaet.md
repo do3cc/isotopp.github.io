@@ -1,15 +1,14 @@
 ---
 layout: post
 published: true
-title: 'Charles Stross: Singularität'
+title: 'Fertig gelesen: Charles Stross: Singularität'
 author-id: isotopp
 date: 2006-07-23 13:54:36 UTC
 tags:
 - media
-- print
-- stross
+- review
 - lang_de
-feature-img: assets/img/background/rijksmuseum.jpg
+feature-img: assets/img/background/book.jpg
 ---
 
 ![](/uploads/singularitaet.jpg)
