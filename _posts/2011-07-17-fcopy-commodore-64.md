@@ -5,7 +5,6 @@ title: FCopy (Commodore 64)
 author-id: isotopp
 date: 2011-07-17 04:23:38 UTC
 tags:
-- commodore
 - damals
 - linkdump
 - lang_de
