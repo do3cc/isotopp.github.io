@@ -4,7 +4,7 @@ published: true
 title: 'Fertig gelesen: You Suck'
 author-id: isotopp
 date: 2007-02-10 21:14:56 UTC
-tagsP
+tags:
 - media
 - review
 - lang_de
