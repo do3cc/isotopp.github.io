@@ -6,7 +6,7 @@ author-id: isotopp
 date: 2010-08-18 13:04:00 UTC
 tags:
 - mysql
-- datenbanken
+- database
 - lang_de
 feature-img: assets/img/background/mysql.jpg
 ---

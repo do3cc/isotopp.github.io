@@ -5,7 +5,7 @@ title: Checkpoint Blues
 author-id: isotopp
 date: 2011-09-19 20:00:00 UTC
 tags:
-- datenbanken
+- database
 - innodb
 - mysql
 - postgres

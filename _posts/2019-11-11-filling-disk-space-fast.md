@@ -8,7 +8,7 @@ tags:
 - lang_en
 - computer
 - storage
-- datenbanken
+- database
 ---
 Some of the databases at work are a tad on the large side, in the high
 2-digit terabytes of size. Copying these to new machines at the moment takes

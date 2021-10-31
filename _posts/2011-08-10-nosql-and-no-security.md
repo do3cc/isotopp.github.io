@@ -5,7 +5,7 @@ title: 'NoSQL and No Security '
 author-id: isotopp
 date: 2011-08-10 19:30:40 UTC
 tags:
-- datenbanken
+- database
 - security
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg

@@ -5,7 +5,7 @@ title: Die relationale Datenbank wird 40.
 author-id: isotopp
 date: 2010-06-08 06:15:00 UTC
 tags:
-- datenbanken
+- database
 - mysql
 - nosql
 - sql

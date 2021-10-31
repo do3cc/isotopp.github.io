@@ -5,7 +5,7 @@ title: Ein paar Gedanken zu Foreign Key Constraints
 author-id: isotopp
 date: 2009-10-20 08:25:10 UTC
 tags:
-- datenbanken
+- database
 - development
 - mysql
 - sql

@@ -7,6 +7,7 @@ date: 2010-11-05 06:41:00 UTC
 tags:
 - mysql
 - nosql
+- database
 - lang_de
 feature-img: assets/img/background/mysql.jpg
 ---

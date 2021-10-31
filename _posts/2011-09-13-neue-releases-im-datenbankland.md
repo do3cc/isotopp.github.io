@@ -5,7 +5,7 @@ title: Neue Releases im Datenbankland
 author-id: isotopp
 date: 2011-09-13 17:40:00 UTC
 tags:
-- datenbanken
+- database
 - mongodb
 - mysql
 - postgres

@@ -6,8 +6,8 @@ feature-img: assets/img/background/rijksmuseum.jpg
 date: 2004-06-06 14:06:40 UTC
 tags:
 - filesystems
-- datenbanken
-- "lang_de"
+- database
+- lang_de
 ---
 Der Artikel [Filesysteme sind Datenbanken](http://matthias.leisi.net/archives/45_Filesysteme_sind_Datenbanken.html) von Matthias Leisi regt mich an, hier mal ein paar Sachen aufzuschreiben, die ich schon länger vor mir her kullere.
 

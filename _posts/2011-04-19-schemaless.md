@@ -5,7 +5,7 @@ title: Schemaless?
 author-id: isotopp
 date: 2011-04-19 11:49:31 UTC
 tags:
-- datenbanken
+- database
 - mysql
 - nosql
 - lang_de

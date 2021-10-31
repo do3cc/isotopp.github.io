@@ -5,7 +5,7 @@ title: NULL is NULL
 author-id: isotopp
 date: 2011-11-04 13:31:00 UTC
 tags:
-- datenbanken
+- database
 - mysql
 - sql
 - lang_de

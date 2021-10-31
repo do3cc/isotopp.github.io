@@ -5,7 +5,7 @@ title: Ein paar Gedanken zu Zeitreihendaten
 author-id: isotopp
 date: 2009-10-28 16:48:29 UTC
 tags:
-- datenbanken
+- database
 - development
 - mysql
 - sql

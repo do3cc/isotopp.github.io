@@ -5,7 +5,7 @@ title: 'Zu Besuch bei Redis'
 author-id: isotopp
 date: 2012-09-23 19:06:45 UTC
 tags:
-- datenbanken
+- database
 - innodb
 - mysql
 - nosql

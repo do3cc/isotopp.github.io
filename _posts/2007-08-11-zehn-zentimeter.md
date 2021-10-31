@@ -5,7 +5,7 @@ title: Zehn Zentimeter
 author-id: isotopp
 date: 2007-08-11 21:06:08 UTC
 tags:
-- datenbanken
+- database
 - mysql
 - performance
 - lang_de

@@ -5,7 +5,7 @@ title: House und Heisenberg revisited
 author-id: isotopp
 date: 2012-09-25 11:11:06 UTC
 tags:
-- datenbanken
+- database
 - debug
 - monitoring
 - mysql

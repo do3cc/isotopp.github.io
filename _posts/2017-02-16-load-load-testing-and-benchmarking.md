@@ -8,7 +8,7 @@ feature-img: assets/img/background/mysql.jpg
 date: '2017-02-16 21:13:28 +0100'
 tags:
 - erklaerbaer
-- datenbanken
+- database
 - performance
 - testing
 - lang_en

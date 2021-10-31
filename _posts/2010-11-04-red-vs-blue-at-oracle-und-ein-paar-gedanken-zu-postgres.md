@@ -7,6 +7,7 @@ date: 2010-11-04 18:00:57 UTC
 tags:
 - mysql
 - postgres
+- database
 - lang_de
 feature-img: assets/img/background/mysql.jpg
 ---

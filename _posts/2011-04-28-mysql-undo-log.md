@@ -5,7 +5,7 @@ title: MySQL Undo Log
 author-id: isotopp
 date: 2011-04-28 12:40:01 UTC
 tags:
-- datenbanken
+- database
 - innodb
 - mysql
 - lang_de

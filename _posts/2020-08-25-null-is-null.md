@@ -5,7 +5,8 @@ title: "MySQL: NULL is NULL"
 author-id: isotopp
 date: 2020-08-25 17:10:00 UTC
 tags:
-- datenbanken
+- database
+- erklaerbaer
 - mysql
 - mysqldev
 - sql
