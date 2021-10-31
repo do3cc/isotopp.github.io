@@ -10,20 +10,36 @@ tags:
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg
 ---
-<u></u><u></u><!-- s9ymdb:3519 --><img width='110' height='57' style="float: right; border: 0px; padding-left: 5px; padding-right: 5px;" src="/uploads/mysql_logo.serendipityThumb.gif" alt="" /> Auf Sourceforge findet man <a href="http://nagiosplug.sourceforge.net/developer-guidelines.html">Plug-in development guidelines</a> für den Nagios Netzwerkmonitor. Demnach ist es trivial, Nagios-Plugins zu entwickeln: Der Check ist ein externes Programm, das den Returncode 0, 1 oder 2 zurück gibt und eine einzeilige Nachricht auf stdout druckt.
 
-Tun wir das doch mal für MySQL: Wir wollen die Anzahl der Threads_connected überwachen und den Replikationsstatus: SQL-Thread und IO-Thread müssen laufen und der Slave-Lag darf nicht zu groß sein.
+Auf Sourceforge findet man 
+[Plug-in development guidelines](http://nagiosplug.sourceforge.net/developer-guidelines.html)
+für den Nagios Netzwerkmonitor.
+Demnach ist es trivial, Nagios-Plugins zu entwickeln: 
+Der Check ist ein externes Programm, das den Returncode 0, 1 oder 2 zurückgibt und eine einzeilige Nachricht auf stdout druckt.
 
-Wir schreiben das Plugin in C, damit wir zugleich mal lernen, die MYSQL Client-API in C zu verwenden - Shellscripte, die sich das abbrechen gibt es ja schon genug.
+Tun wir das doch mal für MySQL: 
+Wir wollen die Anzahl der Threads_connected überwachen und den Replikationsstatus: 
+SQL-Thread und IO-Thread müssen laufen und der Slave-Lag darf nicht zu groß sein.
 
-Der gesamte Quelltext aus diesem Beispiel kann hier runtergeladen werden: <a href="/uploads/check_mysql.c">check_mysql.c</a>
+Wir schreiben das Plugin in C, damit wir zugleich mal lernen, die MYSQL Client-API in C zu verwenden - Shellscripte, die sich das Abbrechen gibt es ja schon genug.
 
-Unser Programm soll eine Reihe von Optionen verarbeiten. Wir lesen die Optionen mit GNU <a href="http://www.cs.duke.edu/courses/spring04/cps108/resources/getoptman.html">getopt_long</a>. Die Funktion braucht eine Optionsliste in einem struct options Array, in dem wir die Optionen deklarieren.
+Der gesamte Quelltext aus diesem Beispiel kann hier heruntergeladen werden: 
+[check_mysql.c](/uploads/check_mysql.c)
 
-Wir wollen: --mode={slave-lag,slave-io-running,slave-sql-running,connections}, --threshold-warn=x, --threshold-err=x und die üblichen MySQL Connection-Options (--user, --password, --host und --port). In Code sieht das so aus:
+Unser Programm soll eine Reihe von Optionen verarbeiten. 
+Wir lesen die Optionen mit GNU 
+[getopt_long](http://www.cs.duke.edu/courses/spring04/cps108/resources/getoptman.html). 
+Die Funktion braucht eine Optionsliste in einem struct options Array, in dem wir die Optionen deklarieren.
 
+Wir wollen:
+- --mode={slave-lag,slave-io-running,slave-sql-running,connections},
+- --threshold-warn=x,
+- --threshold-err=x
+- und die üblichen MySQL Connection-Options (--user, --password, --host und --port). 
 
-{% highlight console %}
+In Code sieht das so aus:
+
+```c
 struct option long_options[] = {
         { "host", 1, 0, 'h' },
         { "user", 1, 0, 'u' },
@@ -53,13 +69,11 @@ mode_t mode    = unspecified;
 int   threshold_warn= 30;
 int   threshold_err = 60;
 int   debug    = 0;
-{% endhighlight %}
-
+```
 
 Die Optionen werden dann wie folgt eingelesen:
 
-
-{% highlight console %}
+```c
 void parse_args(int argc, char *argv[]) {
   int   c;
   int   optind = 0;
@@ -140,18 +154,17 @@ void parse_args(int argc, char *argv[]) {
 
   return;
 }
+```
 
-{% endhighlight %}
+Die Formalitäten sind damit erledigt: 
+Wir haben ein Programm, das die gewünschten Kommandozeilenoptionen einlesen kann und an die Arbeit gehen könnte.
+
+Die Arbeit besteht bei uns darin, an ein MySQL zu verbinden, eine Query auszuführen, das einzeilige Resultat zu lesen und eine bestimmte Spalte aus dem Resultat auszuschneiden, um diese als String zurückzugeben.
+
+Die Funktion `run_query()` tut dies für uns:
 
 
-Der Formatkram wäre damit erledigt: Wir haben ein Programm, das die gewünschten Kommandozeilenoptionen einlesen kann und an die Arbeit gehen könnte.
-
-Die Arbeit besteht bei uns darin, an ein MySQL zu connecten, eine Query auszuführen, das einzeilige Resultat zu lesen und eine bestimmte Spalte aus dem Resultat auszuschneiden, um diese als String zurück zu geben.
-
-Die Funktion run_query() tut dies für uns:
-
-
-{% highlight console %}
+```c
 char *run_query(MYSQL *m, char *cmd, int col) {
   MYSQL_ROW  row;
   MYSQL_RES *res;
@@ -198,22 +211,26 @@ char *run_query(MYSQL *m, char *cmd, int col) {
 
   return NULL;
 }
+```
 
-{% endhighlight %}
+Die Funktion bekommt eine bestehende MySQL-Verbindung m als Parameter übergeben, zudem eine SQL-Query cmd und eine Spaltennummer, die aus dem einzeiligen Resultset der Query ausgesägt werden soll.
+Intern brauchen wir eine `MYSQL_ROW row` und einen Resultset `MYSQL_RES res`.
 
+Die Query wird mit `mysql_real_query()` an den Server gesendet.
+Wenn dabei kein Fehler gemeldet wird, können wir den gesamten Resultset mit `mysql_store_result()` zum Client nach `res` kopieren.
+Der Server ist damit fertig.
 
-Die Funktion bekommt eine bestehende MySQL-Verbindung m als Parameter übergeben, zudem eine SQL-Query cmd und eine Spaltennummer, die aus dem einzeiligen Resultset der Query ausgesägt werden soll. Intern brauchen wir eine MYSQL_ROW row und einen Resultset MYSQL_RES res.
-
-Die Query wird mit mysql_real_query() an den Server gesendet. Wenn dabei kein Fehler gemeldet wird, können wir den gesamten Resultset mit mysql_store_result() zum Client nach res kopieren. Der Server ist damit fertig.
-
-Auf dem Client lesen wir nun mit mysql_fetch_row(res) eine Zeile aus dem Resultset. Diese Zeile hat mysql_num_fields(res) viele Spalten, deren Längen man mit mysql_fetch_length() bestimmen kann. Wenn unser gewünschtes Zielfeld im Datensatz enthalten ist (col < num_fields), dann duplizieren wir das und sind fertig (Nunja, gemogelt: Wir hätten noch mysql_free_result() aufrufen müssen, aber wir machen sowieso gleich exit()).
+Auf dem Client lesen wir nun mit `mysql_fetch_row(res)` eine Zeile aus dem Resultset. 
+Diese Zeile hat `mysql_num_fields(res)` viele Spalten, deren Längen man mit `mysql_fetch_length()` bestimmen kann.
+Wenn unser gewünschtes Zielfeld im Datensatz enthalten ist (`col < num_fields`), dann duplizieren wir das und sind fertig 
+(Nun ja, gemogelt: Wir hätten noch `mysql_free_result()` aufrufen müssen, aber wir machen sowieso gleich `exit()`).
 
 Ansonsten beklagen wir uns gar bitterlich und sind dann fertig.
 
-Im Hauptprogramm müssen wir nun eine Connection öffnen und dann je nach Mode die passenden Sachen checken. Erstmal eine Connection bauen.
+Im Hauptprogramm müssen wir nun eine Connection öffnen und dann je nach Mode die passenden Sachen checken.
+Erstmal eine Connection bauen.
 
-
-{% highlight console %}
+```c
 int main(int argc, char *argv[]) {
 
   parse_args(argc, argv);
@@ -242,14 +259,11 @@ int main(int argc, char *argv[]) {
   }
   if (debug)
     printf("Connected...\n");
-
-{% endhighlight %}
-
+```
 
 Jetzt können wir je nach mode unterschiedliche Dinge tun. Zum Beispiel den Slave Lag checken:
 
-
-{% highlight console %}
+```c
   if (mode == slave_lag) {
     int   lag;
     char *p;
@@ -274,14 +288,11 @@ Jetzt können wir je nach mode unterschiedliche Dinge tun. Zum Beispiel den Slav
     printf("OK: Slave lag %d is inside tolerance.\n", lag);
     exit(0);
   }
-
-{% endhighlight %}
-
+```
 
 Oder Slave-IO und Slave-SQL testen:
 
-
-{% highlight console %}
+```c
   if (mode == slave_io_running) {
     char *p;
 
@@ -317,14 +328,11 @@ Oder Slave-IO und Slave-SQL testen:
     printf("OK: Slave sql is running.\n");
     exit(0);
   }
-
-{% endhighlight %}
-
+```
 
 Oder eben die Anzahl der Threads_connected prüfen und ggf. anmeckern:
 
-
-{% highlight console %}
+```
   if (mode == connections) {
     char *p;
     int   conn = 0;
@@ -350,14 +358,11 @@ Oder eben die Anzahl der Threads_connected prüfen und ggf. anmeckern:
     printf("OK: Threads_connected %d\n", conn);
     exit(0);
   }
-
-{% endhighlight %}
-
+```
 
 Compiled wird so:
 
-
-{% highlight console %}
+```console
 LIBS=-lmysqlclient
 CFLAGS=-g
 
@@ -365,33 +370,25 @@ all:    check_mysql
 
 check_mysql:    check_mysql.c
         cc $(CFLAGS) -o check_mysql check_mysql.c $(LIBS)
+```
 
-{% endhighlight %}
+Und im Nagios kann man dann in `/etc/nagios/checkcommands.cfg` definieren:
 
-
-Und im Nagios kann man dann in /etc/nagios/checkcommands.cfg definieren:
-
-
-{% highlight console %}
+```console
 define command {
     command_name check_mysql_status
     command_line /usr/lib/nagios/plugins/custom/check_mysql --mode=$ARG1$  -h $HOSTALIAS$ -u monitor -p g33k  $ARG2$
 }
-
-{% endhighlight %}
-
+```
 
 Ein Service kann dann definiert werden als
 
-
-{% highlight console %}
+```console
 define service {
     name                template-mysql-slave-lag
     use                 template-standardhost
     register            0
     service_description MySQL slave-lag
     check_command       check_mysql_status!slave-lag!--threshold-warn=600 --threshold-err=900
-    }
-
-{% endhighlight %}
-
+}
+```
