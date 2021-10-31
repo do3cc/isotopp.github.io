@@ -4,7 +4,7 @@ published: true
 title: GPL V3 RC3 - Was steht drin?
 author-id: isotopp
 date: 2007-04-02 09:36:00 UTC
-tags
+tags:
 - copyright
 - free software
 - lizenz

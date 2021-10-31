@@ -4,6 +4,7 @@ published: true
 title: GPL V3 (2nd draft)
 author-id: isotopp
 date: 2006-07-30 07:52:20 UTC
+tags:
 - free software
 - lizenz
 - politik
