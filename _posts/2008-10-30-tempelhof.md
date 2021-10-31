@@ -4,6 +4,7 @@ published: true
 title: Tempelhof
 author-id: isotopp
 date: 2008-10-30 12:24:53 UTC
+tags:
 - berlin
 - flug
 - reisen
