@@ -4,6 +4,7 @@ published: true
 title: Git "gewinnt"
 author-id: isotopp
 date: 2009-01-05 08:52:56 UTC
+tags:
 - free software
 - git
 - perl
