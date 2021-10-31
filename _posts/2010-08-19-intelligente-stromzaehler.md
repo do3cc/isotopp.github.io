@@ -6,15 +6,15 @@ author-id: isotopp
 date: 2010-08-19 09:27:09 UTC
 tags:
 - computer
-- energie
-- strom
+- energy
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg
 ---
+
 Ich habe letztes Jahr 
-[hier]({% link _posts/2009-06-05-wie-viel-strom-verbraucht-ein-stromz-hler.md %})
+[hier]({% link _posts/2009-06-05-wie-viel-strom-verbraucht-ein-stromzaehler.md %})
 und
-[hier]({% link _posts/2009-07-06-stromz-hler-revisited.md %})
+[hier]({% link _posts/2009-07-06-stromzaehler-revisited.md %})
 ja schon mal was über "intelligente" Stromzähler geschrieben, zu deren
 Einbau wir ja nun alle verpflichtet sind, wenn wir renovieren oder neu
 bauen.

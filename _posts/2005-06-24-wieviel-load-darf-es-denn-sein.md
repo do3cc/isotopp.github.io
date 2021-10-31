@@ -6,7 +6,7 @@ author-id: isotopp
 date: 2005-06-24 08:47:16 UTC
 tags:
 - computer
-- dedicated server
+- admin
 - linux
 - unix
 - lang_de

@@ -9,7 +9,7 @@ tags:
 - mysql
 - schemas
 - primary key
-- data lifecycle management
+- database
 ---
 On Twitter, [@CaptainEyesight](https://twitter.com/CaptainEyesight/status/1221889419654787073) asked a question:
 

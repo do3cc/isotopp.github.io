@@ -8,7 +8,7 @@ feature-img: assets/img/background/rijksmuseum.jpg
 date: '2017-08-13 10:07:10 +0200'
 tags:
 - media
-- drm
+- copyright
 - lang_en
 ---
 ![](/uploads/2017/08/eating-from-the-trashcan.jpg)

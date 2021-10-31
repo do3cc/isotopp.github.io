@@ -6,8 +6,7 @@ author-id: isotopp
 date: 2009-06-05 08:48:58 UTC
 tags:
 - computer
-- energie
-- strom
+- energy
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg
 ---

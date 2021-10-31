@@ -5,7 +5,6 @@ title: '"Bist Du Deutschland?" oder "Ein vereinfachtes Weltbild für Anfänger"'
 author-id: isotopp
 date: 2005-12-30 16:17:52 UTC
 tags:
-- deutschland
 - politik
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg
