@@ -52,7 +52,7 @@ Die Load auf meinem System ist derzeit so:
 
 Für Auslastungsabschätzungen ist die blaue Fläche aussagekräftig, denn sie stellt die 15 Minuten-Load dar.
 Diese Zahl ist relativ unempfindlich gegen lokale Lastspitzen und daher ein besseres Maß für die Auslastung (im Gegensatz zur Elastizität) des Systems.
-Meine Maschine läuft derzeit tagsüber mit einer Load von ca. 0.8, ist also mit einem Prozessor zu etwa 80% voll.
+Meine Maschine läuft derzeit tagsüber mit einer Load von ca. 0.8, ist also mit einem Prozessor zu etwa 80 % voll.
 Zu einzelnen Zeitpunkten (nachts um 4:15 Uhr, wenn das News-Expire läuft), wird die Ideal-Last von 1 deutlich überschritten. 
 Das ist zu diesem Zeitpunkt aber nicht schlimm.
 

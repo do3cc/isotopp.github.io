@@ -51,7 +51,7 @@ Die können zum Beispiel keine Crypto, denn:
 > Why is this important? 
 > Because the MSP430 and ZigBee are found in many wireless sensor systems, including most Smart Meters.
 
-Der Zufallszahlengenerator, aus dem das Schlüsselmaterial für die Crypto gemacht werden soll, auf denen die Rechnungserstellung basiert, hat nicht nur einen 16 Bit kleinen Entropiepool, sondern außerdem mit nicht zufälligen Startwerten versehen und daher noch leichter vorhersagbar.  
+Der Zufallszahlengenerator, aus dem das Schlüsselmaterial für die Crypto gemacht werden soll, auf denen die Rechnungserstellung basiert, hat nicht nur einen 16 Bit kleinen Entropiepool, sondern außerdem mit nicht zufälligen Startwerten versehen und daher noch leichter vorhersagbar. 
 Dazu ist der Algorithmus, mit dem dann "Zufallszahlen" generiert werden, nicht kryptografisch sicher, also auch prinzipiell vorhersagbar.
 
 Das Gerät - eine Serie von TI-Mikrocontrollern die in vielen Embedded Geräten verwendet werden - ist so wie ausgeliefert nicht rettbar.
