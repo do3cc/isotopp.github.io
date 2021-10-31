@@ -9,6 +9,8 @@ tags:
 - review
 - media
 - book
+- c
+- unix
 ---
 
 The memoir of Brian Kernighan, and the story of how UNIX came to be and what working at Bell Labs was like at that time:

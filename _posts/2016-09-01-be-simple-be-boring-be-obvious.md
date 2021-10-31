@@ -6,9 +6,9 @@ feature-img: assets/img/background/rijksmuseum.jpg
 date: 2016-09-01 08:08:46 +0200
 tags:
 - lang_en
-- config management
 - computer
 - devops
+- talk
 ---
 On Core.Infra day, I was invited to speak. This is my talk. There were many like it, but this was mine.
 

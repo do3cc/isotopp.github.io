@@ -5,7 +5,6 @@ title: IP-Nummern und elektronische Personalausweise
 author-id: isotopp
 date: 2008-11-08 08:16:27 UTC
 tags:
-- authentication
 - identity
 - politik
 - security

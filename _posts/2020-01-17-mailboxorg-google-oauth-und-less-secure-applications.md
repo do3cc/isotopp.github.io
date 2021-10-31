@@ -8,7 +8,7 @@ tags:
 - lang_de
 - google
 - security
-- authentication
+- identity
 - datenschutz
 ---
 Heise schreibt in

@@ -7,7 +7,6 @@ date: 2012-03-06 13:42:47 UTC
 tags:
 - computer
 - development
-- enterprise
 - software
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg

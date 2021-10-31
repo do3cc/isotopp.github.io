@@ -7,6 +7,7 @@ date: 2021-01-05 17:11:57 +0100
 tags:
 - lang_en
 - python
+- bash
 - devops
 ---
 

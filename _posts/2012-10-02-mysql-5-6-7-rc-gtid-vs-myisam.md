@@ -8,7 +8,6 @@ tags:
 - innodb
 - mysql
 - replication
-- gtid
 - lang_en
 feature-img: assets/img/background/mysql.jpg
 ---

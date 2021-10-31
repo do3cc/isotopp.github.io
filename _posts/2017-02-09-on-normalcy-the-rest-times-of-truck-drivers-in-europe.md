@@ -8,7 +8,7 @@ feature-img: assets/img/background/rijksmuseum.jpg
 date: '2017-02-09 14:11:50 +0100'
 tags:
 - post car society
-- europe
+- europa
 - lang_en
 ---
 [DVZ Landverkehr reports](http://www.dvz.de/rubriken/landverkehr/single-view/nachricht/eugh-generalanwalt-fahrer-duerfen-wochenruhezeit-nicht-im-lkw-verbringen.html)

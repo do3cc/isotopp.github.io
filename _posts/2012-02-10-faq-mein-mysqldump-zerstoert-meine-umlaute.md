@@ -5,7 +5,6 @@ title: 'FAQ: Mein mysqldump zerstört meine Umlaute'
 author-id: isotopp
 date: 2012-02-10 11:50:22 UTC
 tags:
-- character set
 - mysql
 - umlaut
 - lang_de

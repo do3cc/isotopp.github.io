@@ -5,7 +5,6 @@ title: Über Anonymität reden
 author-id: isotopp
 date: 2005-05-24 02:15:00 UTC
 tags:
-- authentication
 - identity
 - security
 - lang_de

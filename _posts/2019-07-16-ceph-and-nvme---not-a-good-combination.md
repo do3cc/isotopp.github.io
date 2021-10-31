@@ -7,7 +7,6 @@ date: 2019-07-16 08:21:25 +0100
 tags:
 - lang_en
 - computer
-- ceph
 - storage
 ---
 Saving an [older twitter thread on Ceph](https://twitter.com/isotopp/status/1151013922528534528).

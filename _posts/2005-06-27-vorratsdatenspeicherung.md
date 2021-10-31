@@ -5,7 +5,6 @@ title: Vorratsdatenspeicherung
 author-id: isotopp
 date: 2005-06-27 17:47:45 UTC
 tags:
-- authentication
 - identity
 - politik
 - security

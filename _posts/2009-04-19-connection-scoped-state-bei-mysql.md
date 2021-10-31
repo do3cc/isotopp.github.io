@@ -5,7 +5,7 @@ title: Connection Scoped State bei MySQL
 author-id: isotopp
 date: 2009-04-19 11:14:27 UTC
 tags:
-- faq
+- erklaerbaer
 - mysql
 - php
 - phpmyadmin

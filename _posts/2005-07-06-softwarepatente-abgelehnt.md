@@ -5,7 +5,7 @@ title: Softwarepatente? Abgelehnt!
 author-id: isotopp
 date: 2005-07-06 10:52:19 UTC
 tags:
-- Free Software
+- free software
 - lizenz
 - patent
 - politik

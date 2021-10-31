@@ -6,7 +6,6 @@ author-id: isotopp
 date: 2012-03-12 19:44:10 UTC
 tags:
 - computer
-- graph
 - monitoring
 - mysql
 - lang_de

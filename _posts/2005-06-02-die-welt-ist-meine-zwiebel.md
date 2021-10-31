@@ -5,7 +5,6 @@ title: Die Welt ist meine... Zwiebel?
 author-id: isotopp
 date: 2005-06-02 08:26:10 UTC
 tags:
-- authentication
 - identity
 - security
 - lang_de
@@ -16,7 +15,7 @@ feature-img: assets/img/background/rijksmuseum.jpg
 IP-Nummern werden
 [überbewertet]({% link _posts/2005-05-23-identifizierung-durch-ip.md %})
 das wußten wir schon. Nach einigen
-[theoretischen Anmerkungen zum Thema Anonymität]({% link _posts/2005-05-24-ber-anonymit-t-reden.md %})
+[theoretischen Anmerkungen zum Thema Anonymität]({% link _posts/2005-05-24-ueber-anonymitaet-reden.md %})
 geht es jetzt in die Praxis, denn Anonymität kann man auch selber
 herstellen. Die Grundlage dafür ist
 [Onion Routing](http://en.wikipedia.org/wiki/Onion_routing): Netzknoten

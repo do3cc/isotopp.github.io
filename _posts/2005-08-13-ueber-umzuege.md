@@ -5,8 +5,6 @@ title: Über Umzüge
 author-id: isotopp
 date: 2005-08-13 10:10:43 UTC
 tags:
-- essen
-- funny
 - kiel
 - lang_de
 feature-img: assets/img/background/rijksmuseum.jpg

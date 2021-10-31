@@ -5,7 +5,6 @@ title: Downloading communism...
 author-id: isotopp
 date: 2010-02-25 11:47:02 UTC
 tags:
-- acta
 - copyright
 - free software
 - politik
